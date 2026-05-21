@@ -1,0 +1,163 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+}
+
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+  padding:30px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:30px;
+  color:#38bdf8;
+  font-size:50px;
+}
+
+.table-container{
+  overflow-x:auto;
+  margin-bottom:30px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  background:#1e293b;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+thead{
+  background:#0284c7;
+}
+
+th, td{
+  padding:15px;
+  text-align:center;
+}
+
+tbody tr{
+  border-bottom:1px solid #334155;
+  transition:.3s;
+}
+
+tbody tr:hover{
+  background:#334155;
+}
+
+.formulario{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:30px;
+}
+
+.formulario h2{
+  margin-bottom:20px;
+}
+
+.formulario input{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:none;
+  border-radius:8px;
+  background:#334155;
+  color:white;
+  font-size:16px;
+}
+
+.formulario button{
+  width:100%;
+  padding:15px;
+  border:none;
+  border-radius:8px;
+  background:#0ea5e9;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.formulario button:hover{
+  background:#0284c7;
+}
+
+.selector-tipo{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:30px;
+}
+
+.selector-tipo h2{
+  margin-bottom:15px;
+}
+
+.selector-tipo select{
+  width:100%;
+  padding:15px;
+  border:none;
+  border-radius:8px;
+  background:#334155;
+  color:white;
+  font-size:16px;
+}
+
+.resolver-btn{
+  width:100%;
+  padding:18px;
+  border:none;
+  border-radius:10px;
+  background:#22c55e;
+  color:white;
+  font-size:20px;
+  cursor:pointer;
+  margin-bottom:30px;
+  transition:.3s;
+}
+
+.resolver-btn:hover{
+  background:#16a34a;
+}
+
+.resultado{
+  background:#1e293b;
+  padding:25px;
+  border-radius:10px;
+}
+
+.resultado h2{
+  margin-bottom:20px;
+  color:#38bdf8;
+}
+
+.resultado-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#334155;
+  padding:20px;
+  border-radius:10px;
+  font-size:20px;
+  margin-bottom:15px;
+}
+
+.mejor{
+  border:2px solid #22c55e;
+  background:#14532d;
+}
+
+.mejor p{
+  font-weight:bold;
+}
